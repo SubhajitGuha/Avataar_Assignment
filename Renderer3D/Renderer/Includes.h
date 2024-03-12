@@ -1,0 +1,32 @@
+#pragma once
+#include <limits>
+#include <functional>
+#include <string>
+#include <memory>
+#include <sstream>
+#include <vector>
+#include <stack>
+#include <queue>
+#include <unordered_map>
+#include <unordered_set>
+#include <algorithm>
+#include <fstream>
+#include <iostream>
+#include <sstream>
+#include <chrono>
+#include <thread>
+#include <execution>
+#include <random>
+#include <typeinfo>
+#include <future>
+
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/type_ptr.hpp"
+#include "glm/gtx/quaternion.hpp"
+#include "glm/gtx/matrix_major_storage.hpp"
+#include "glm/gtx/transform.hpp"
+
+#include "Window/Input.h"
+#include "Window/InputCodes.h"
+#include "Window/WindowsInput.h"
