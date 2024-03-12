@@ -1,0 +1,1 @@
+Inside Renderer3D folder run the Renderer3D.exe file to launch the application.
