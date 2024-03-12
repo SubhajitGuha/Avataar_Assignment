@@ -142,8 +142,8 @@
     <ClInclude Include="Renderer\Events\KeyEvent.h" />
     <ClInclude Include="Renderer\Events\MouseEvent.h" />
     <ClInclude Include="Renderer\Includes.h" />
-    <ClInclude Include="Renderer\OpenGL\OpenGlContext.h" />
     <ClInclude Include="Renderer\OpenGL\OpenGLRenderer.h" />
+    <ClInclude Include="Renderer\OpenGL\OpenGlContext.h" />
     <ClInclude Include="Renderer\OpenGL\OpenGlShader.h" />
     <ClInclude Include="Renderer\Sphere.h" />
     <ClInclude Include="Renderer\Window.h" />
@@ -155,8 +155,8 @@
   <ItemGroup>
     <ClCompile Include="Renderer\Application.cpp" />
     <ClCompile Include="Renderer\Camera\Camera.cpp" />
-    <ClCompile Include="Renderer\OpenGL\OpenGlContext.cpp" />
     <ClCompile Include="Renderer\OpenGL\OpenGLRenderer.cpp" />
+    <ClCompile Include="Renderer\OpenGL\OpenGlContext.cpp" />
     <ClCompile Include="Renderer\OpenGL\OpenGlShader.cpp" />
     <ClCompile Include="Renderer\Window.cpp" />
     <ClCompile Include="Renderer\Window\WindowsInput.cpp" />
@@ -169,9 +169,6 @@
     <ProjectReference Include="thirdparty\Glad\Glad.vcxproj">
       <Project>{BDD6857C-A90D-870D-52FA-6C103E10030F}</Project>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Shaders\LightingShader.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
