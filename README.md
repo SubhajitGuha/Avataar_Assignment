@@ -3,6 +3,8 @@ Build Instructions:-
 * Open Visual Studio 2019 and build/run the project using any configurations(Release/Debug).  
 * Thats all.
 
+In case if any build error occurs, I have included the build version of the application in "BuildEXE" folder, where you just have to run the "Renderer3D.exe" to launch the application.  
+
 The Application:-  
 When you run the application you will see 36 spheres with varying material properties, shaded using "Phong material model". From left to right the diffuse parameter decreases linearly and from bottom to top the specular parameter
 increases linearly. I use 3-lights one directional light at direction [-3.0f,-5.0f,5.0f] and two point lights at locations [-15.0,-10.0,-5.0] and [-15.0,10.0,-5.0]. When you click on one of 
